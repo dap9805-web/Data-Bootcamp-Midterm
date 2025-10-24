@@ -41,7 +41,7 @@ Each stock’s dataset included:
 -A 730-day window ensures enough data to calculate long-term indicators like the 200-day moving average.
 
 **Visual:**  
-![Data Retrieval Chart](data_fetch_example.png)
+![Data Retrieval Chart](data_fetch_example.PNG)
 
 ------------------------------------------------------------------------------------
 
@@ -57,7 +57,7 @@ Each stock’s dataset included:
 -Handles missing values and ensures results remain consistent across tickers.
 
 **Visual:**  
-![Indicator Chart](Indicators.png)
+![Indicator Chart](Indicators.PNG)
 
 ------------------------------------------------------------------------------------
 
@@ -70,7 +70,7 @@ Each stock’s dataset included:
 -Each classification is stored in the DataFrame for signal generation.
 
 **Visual:**  
-![Trend Classification Example](charts/trend_classification.png)
+![Trend Classification Example](charts/trend_classification.PNG)
 
 ------------------------------------------------------------------------------------
 
@@ -89,7 +89,7 @@ Each stock’s dataset included:
 **Visual:**  
 | **Buy Signal** | **Sell Signal** |
 |----------------|----------------|
-| ![Buy Signal](BUYsignal_generation.png) | ![Sell Signal](SELLsignal_generation.png) |
+| ![Buy Signal](BUYsignal_generation.PNG) | ![Sell Signal](SELLsignal_generation.PNG) |
 ------------------------------------------------------------------------------------
 
 ### Trailing Stop & Take-Profit (`update_trailing_stop_and_take_profit`)  
@@ -109,7 +109,7 @@ Each stock’s dataset included:
 -Gives a visual sense of timing accuracy and overall trend-following behavior.
 
 **Visual:**  
-![Strategy Plot](strategy_plot.png)
+![Strategy Plot](strategy_plot.PNG)
 
 ------------------------------------------------------------------------------------
 
@@ -128,7 +128,7 @@ Each stock’s dataset included:
 -The combination of automated logging and live feedback makes it easy to monitor trade flow and debug performance.
 
 **Visual:**  
-![Execution Log Example](trade_execution_log.png)
+![Execution Log Example](trade_execution_log.PNG)
 
 ------------------------------------------------------------------------------------
 
@@ -149,7 +149,7 @@ Each stock’s dataset included:
 -The single-ticker workflow serves as the foundation for scaling up to multiple stocks in later stages.
 
 **Visual:**  
-![Run Strategy Output](run_strategy_output.png)
+![Run Strategy Output](run_strategy_output.PNG)
 
 ------------------------------------------------------------------------------------
 
@@ -180,7 +180,7 @@ Error Handling:
 
 
 **Visual:**  
-![Ticker Scraper Example](load_QQQ_tickers.png)
+![Ticker Scraper Example](load_QQQ_tickers.PNG)
 
 ------------------------------------------------------------------------------------
 
@@ -249,7 +249,7 @@ PnL Visualization:
 
 
 **Visual:**  
-![Dashboard](portfolio_dashboard.png)
+![Dashboard](portfolio_dashboard.PNG)
 
 ------------------------------------------------------------------------------------
 
@@ -273,7 +273,7 @@ Performance Visualization:
 -The chart provides a quick visual on how the strategy performed across the full market run.
 
 **Visual:**  
-![Full Market Scan Output](run_QQQ_full_output.png)
+![Full Market Scan Output](run_QQQ_full_output.PNG)
 
 ------------------------------------------------------------------------------------
 
