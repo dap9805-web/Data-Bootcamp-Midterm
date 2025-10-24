@@ -70,7 +70,16 @@ Each stock’s dataset included:
 -Each classification is stored in the DataFrame for signal generation.
 
 **Visual:**  
-![Trend Classification Example](trend_classification.PNG)
+<table>
+<tr>
+<td><img src="uptrend_example.PNG" width="400"></td>
+<td><img src="downtrend_example.PNG" width="400"></td>
+</tr>
+<tr>
+<td align="center"><b>Uptrend</b> — Price above MA50/MA200 and EMA9 > EMA21</td>
+<td align="center"><b>Downtrend</b> — Price below MA50/MA200 and EMA9 < EMA21</td>
+</tr>
+</table>
 
 ------------------------------------------------------------------------------------
 
