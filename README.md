@@ -70,7 +70,7 @@ Each stock’s dataset included:
 -Each classification is stored in the DataFrame for signal generation.
 
 **Visual:**  
-![Trend Classification Example](charts/trend_classification.PNG)
+![Trend Classification Example](trend_classification.PNG)
 
 ------------------------------------------------------------------------------------
 
@@ -149,7 +149,7 @@ Each stock’s dataset included:
 -The single-ticker workflow serves as the foundation for scaling up to multiple stocks in later stages.
 
 **Visual:**  
-![Run Strategy Output](run_strategy_output.PNG)
+![Run Strategy Output](run_stratergy_output.PNG)
 
 ------------------------------------------------------------------------------------
 
