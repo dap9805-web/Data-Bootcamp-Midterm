@@ -72,7 +72,7 @@ Each stock’s dataset included:
 **Visual:**  
 <table>
 <tr>
-<td><img src="uptrend1_example.PNG" width="400"></td>
+<td><img src="uptrend2_example.PNG" width="400"></td>
 <td><img src="downtrend_example.PNG" width="400"></td>
 </tr>
 <tr>
