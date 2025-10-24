@@ -320,6 +320,10 @@ Key Takeaways:
 -While API restrictions prevented live execution testing beyond the sandbox limits, all internal components behaved as expected, validating the system’s structure and scalability.
 -Future iterations could incorporate alternate strategies, longer testing periods, and alternate APIs to better mirror real trading environments.
 
+**Visual:**  
+![tradier sandbox example](tradier_sandbox_dashboard.PNG)  
+*Example of the Tradier Sandbox interface illustrating the $10,000 testing cap and position handling limitations that affected live API simulations.*
+
 ------------------------------------------------------------------------------------
 
 ## Conclusions and Takeaways
