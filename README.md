@@ -321,7 +321,7 @@ Key Takeaways:
 -Future iterations could incorporate alternate strategies, longer testing periods, and alternate APIs to better mirror real trading environments.
 
 **Visual:**  
-![tradier sandbox example](tradier_sandbox_dashboard.PNG)  
+![tradier sandbox example](tradier_sandbox_example.PNG)  
 *Example of the Tradier Sandbox interface illustrating the $10,000 testing cap and position handling limitations that affected live API simulations.*
 
 ------------------------------------------------------------------------------------
