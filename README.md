@@ -109,7 +109,7 @@ Each stock’s dataset included:
 -Gives a visual sense of timing accuracy and overall trend-following behavior.
 
 **Visual:**  
-![Strategy Plot](strategy_plot.PNG)
+![Strategy Plot](stratergy_plot.PNG)
 
 ------------------------------------------------------------------------------------
 
