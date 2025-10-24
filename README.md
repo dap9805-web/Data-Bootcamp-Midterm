@@ -41,7 +41,7 @@ Each stock’s dataset included:
 -A 730-day window ensures enough data to calculate long-term indicators like the 200-day moving average.
 
 **Visual:**  
-![Data Retrieval Chart](charts/data_fetch_example.png)
+![Data Retrieval Chart](data_fetch_example.png)
 
 ------------------------------------------------------------------------------------
 
@@ -57,7 +57,7 @@ Each stock’s dataset included:
 -Handles missing values and ensures results remain consistent across tickers.
 
 **Visual:**  
-![Indicator Chart](charts/QQQ_Indicators.png)
+![Indicator Chart](Indicators.png)
 
 ------------------------------------------------------------------------------------
 
@@ -87,8 +87,9 @@ Each stock’s dataset included:
 -Signals are tagged with entry price and stop-loss levels based on EMA21 or 93%/107% thresholds.
 
 **Visual:**  
-![Signal Generation Example](charts/signal_generation.png)
-
+| **Buy Signal** | **Sell Signal** |
+|----------------|----------------|
+| ![Buy Signal](BUYsignal_generation.png) | ![Sell Signal](SELLsignal_generation.png) |
 ------------------------------------------------------------------------------------
 
 ### Trailing Stop & Take-Profit (`update_trailing_stop_and_take_profit`)  
@@ -97,9 +98,6 @@ Each stock’s dataset included:
 -If a trade moves 5% in profit, the stop-loss is raised to breakeven.
 -Protects gains while minimizing downside risk on successful trades.
 -Keeps the trade lifecycle realistic by mirroring common risk management methods.
-
-**Visual:**  
-![Stop Loss Example](charts/trailing_stop_example.png)
 
 ------------------------------------------------------------------------------------
 
@@ -111,7 +109,7 @@ Each stock’s dataset included:
 -Gives a visual sense of timing accuracy and overall trend-following behavior.
 
 **Visual:**  
-![Strategy Plot](charts/strategy_plot.png)
+![Strategy Plot](strategy_plot.png)
 
 ------------------------------------------------------------------------------------
 
@@ -130,7 +128,7 @@ Each stock’s dataset included:
 -The combination of automated logging and live feedback makes it easy to monitor trade flow and debug performance.
 
 **Visual:**  
-![Execution Log Example](charts/trade_execution_log.png)
+![Execution Log Example](trade_execution_log.png)
 
 ------------------------------------------------------------------------------------
 
@@ -151,7 +149,7 @@ Each stock’s dataset included:
 -The single-ticker workflow serves as the foundation for scaling up to multiple stocks in later stages.
 
 **Visual:**  
-![Run Strategy Output](charts/run_strategy_output.png)
+![Run Strategy Output](run_strategy_output.png)
 
 ------------------------------------------------------------------------------------
 
@@ -182,7 +180,7 @@ Error Handling:
 
 
 **Visual:**  
-![Ticker Scraper Example](charts/load_QQQ_tickers.png)
+![Ticker Scraper Example](load_QQQ_tickers.png)
 
 ------------------------------------------------------------------------------------
 
@@ -225,10 +223,6 @@ Saving and Loading:
 -This makes it possible to pause and resume simulations without losing progress.
 -When loading, the system automatically detects whether a previous portfolio exists or starts fresh if none is found.
 
-
-**Visual:**  
-![Portfolio Tracker Output](charts/portfolio_tracker_output.png)
-
 ------------------------------------------------------------------------------------
 
 ### Portfolio Dashboard (`portfolio_dashboard`)  
@@ -255,7 +249,7 @@ PnL Visualization:
 
 
 **Visual:**  
-![Dashboard](charts/portfolio_dashboard.png)
+![Dashboard](portfolio_dashboard.png)
 
 ------------------------------------------------------------------------------------
 
@@ -279,7 +273,7 @@ Performance Visualization:
 -The chart provides a quick visual on how the strategy performed across the full market run.
 
 **Visual:**  
-![Full Market Scan Output](charts/run_QQQ_full_output.png)
+![Full Market Scan Output](run_QQQ_full_output.png)
 
 ------------------------------------------------------------------------------------
 
@@ -316,9 +310,6 @@ Key Takeaways:
 -The system successfully executed full-cycle simulations: scraping live tickers, generating signals, enforcing allocation limits, managing portfolio states, and visualizing results.
 -While API restrictions prevented live execution testing beyond the sandbox limits, all internal components behaved as expected, validating the system’s structure and scalability.
 -Future iterations could incorporate alternate strategies, longer testing periods, and alternate APIs to better mirror real trading environments.
-
-**Visual:**  
-![Results Example](charts/results_observations.png)
 
 ------------------------------------------------------------------------------------
 
